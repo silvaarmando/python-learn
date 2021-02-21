@@ -20,6 +20,6 @@ elif opcao == 4:
   parcela = total / totparc
   print('Sua compra será parcelada em {totparc}x de R$ {parcela:.2f} COM JUROS.')
 else:
-  total = preco
+  total = preco 
   print('OPÇÃO INVÁLIDA de pagamento. Tente novamente!')
 print('Sua compra de R$ {preco:.2f} vai custar R$ {total:.2f} no final.')
