@@ -1,6 +1,11 @@
 from random import randint
 
-itens = ('PEDRA', 'PAPEL', 'TESOURA')
+itens = (
+  'PEDRA',
+  'PAPEL',
+  'TESOURA'
+)
+
 computador = randint(0, 2)
 print('=-*-=' * 7)
 print('*         JO! KEN! PO!            *')
