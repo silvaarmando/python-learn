@@ -1,25 +1,25 @@
-# Melhore o jogo do DESAFIO 028 onde o computador vai "pensar" em um número entre 0 e 10. Só que agora o jogador vai tentar adivinhar até acertar, mostrando no final quantos palpites foram necessários para vencer.
+# Improve the game of CHALLENGE 028 where the computer will "think" of a number between 0 and 10. Only now the player will try to guess until he gets it right, showing in the end how many guesses it took to win.
 
 from random import randint
 from time import sleep
 
-computador = randint(0, 10)
-print('Sou seu computador...')
+computer = randint(0, 10)
+print('Hi, i am your computer ...')
 sleep(2)
-print('Acabei de pensar em um número entre 0 e 10...')
+print('I just thought of a number between 0 and 10 ...')
 sleep(2)
-print('Será que você consegue adivinhar qual foi?')
+print('Can you guess what it was?')
 sleep(2)
-acertou = False
-palpites = 0
-while not acertou:
-  jogador = int(input('Qual é seu palpite? '))
-  palpites += 1
-  if jogador == computador:
-    acertou = True
+right = False
+hunches = 0
+while not right:
+  player = int(input('What is your guess? '))
+  hunches += 1
+  if player == computer:
+    right = True
   else:
-    if jogador < computador:
-      print('Mais... Tente mais uma vez: ')
-    elif jogador > computador:
-      print('Menos... Tente mais uma vez: ')
-print(f'Você acertou com {palpites} tentativas! Parabéns!')
+    if player < computer:
+      print('More ... Try again: ')
+    elif player > computer:
+      print('Less ... Try again: ')
+print(f'You got it right with {hunches} attempts! Congratulations!')
