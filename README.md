@@ -1,7 +1,10 @@
-# PYTHON LEARNING
-
-![width="240px", height="180px"](icon.png)
-
-## This repository is for Python Fundamentals and their Algorithms
+<h1
+  align="center"
+>
+  <img
+    src="icon.png"
+  />
+  <h1 align="center">PYTHON LEARNING</h1>
+</h1>
 
 ## This repository is for Language Python Fundamentals and their Algorithms
