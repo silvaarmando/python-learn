@@ -8,4 +8,4 @@
   <h1 align="center">PYTHON LEARNING</h1>
 </h1>
 
-## This repository is for Language Python Fundamentals and their Algorithms
+<h3 align="center"> This repository is for Language Python Fundamentals and their Algorithms </h3>
