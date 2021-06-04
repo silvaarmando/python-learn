@@ -1,5 +1,5 @@
 print('Arithmetic Progression Generator with While')
-print('\_/' * 10)
+print('_/\_' * 10)
 first = int(input('First term: '))
 reason = int(input('PA reason: '))
 term = first
