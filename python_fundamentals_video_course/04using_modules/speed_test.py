@@ -1,6 +1,6 @@
-import speedtest
+from speedtest import Speedtest
 
-s = speedtest.Speedtest()
+s = Speedtest()
 
 print('Testing... \n')
 
